@@ -1,0 +1,78 @@
+@media only screen and (max-width:991px) {
+    .navbar ul li {
+        padding: 10px 0px !important;
+    }
+    .img-container {
+        margin-bottom: 40px !important;
+    }
+    .item-page {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:775px) {
+    .item-page {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width:777px) {
+    .menu-nav {
+        display: none !important;
+    }
+    .mobile-menu {
+        display: initial !important;
+    }
+    .mobile-menu .accordion {
+        padding: 0px 50px !important;
+    }
+    .desktop-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:887px) {
+    .slider-container {
+        display: block;
+    }
+    .slider-container .slider-img {
+        width: 100% !important;
+        margin: auto;
+    }
+    .menu-list2 {
+        max-width: 580px;
+        margin-top: 0px !important;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:539px) {
+    .slider-container .slider-img {
+        height: 100% !important;
+    }
+}
+
+@media only screen and (max-width:703px) {
+    .slider-container1 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        height: 100% !important;
+        max-width: 800px !important;
+    }
+    .chef-frances img {
+        border: 5px solid rgb(216, 213, 213);
+        width: 80% !important;
+        height: 100%;
+        margin: auto;
+    }
+    .chefs {
+        background-color: white;
+        width: 80%;
+        height: 80vh;
+        border: 5px solid rgb(216, 213, 213);
+        margin-top: -10px;
+    }
+}

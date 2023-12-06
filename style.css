@@ -82,7 +82,7 @@
     border-radius: 20px;
     border: 3px solid rgb(255, 60, 0);
     height: 40px;
-    width: 150px;
+    width: 180px !important;
     font-size: 18px;
     margin: 10px;
 }
@@ -175,7 +175,7 @@
     border-radius: 20px;
     border: 2px solid rgb(255, 60, 0);
     height: 40px;
-    width: 130px;
+    width: 180px;
     font-size: 18px;
     margin: 10px;
 }

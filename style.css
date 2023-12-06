@@ -859,9 +859,9 @@
     border-radius: 20px;
     border: 2px solid rgb(255, 60, 0);
     height: 46px;
-    width: 180px;
+    width: 200px !important;
     margin: 10px;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 20px;
 }
 

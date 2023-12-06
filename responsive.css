@@ -82,3 +82,32 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .book-service1 h4 {
+        color: white;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .book-service1 p {
+        margin: 0px 40px;
+        font-weight: 300;
+        font-size: 22px;
+        color: whitesmoke;
+    }
+    .book-service1 span {
+        margin: 0px 110px;
+    }
+    .book-service a button {
+        background-color: #ff4400;
+        color: white;
+        font-weight: 800 !important;
+        border-radius: 20px;
+        border: 2px solid rgb(255, 60, 0);
+        height: 46px;
+        width: 200px !important;
+        margin: 10px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
